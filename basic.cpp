@@ -32,8 +32,16 @@ int main(){
     B.push_back({2,4}); //2차원 배열의 인자 값으로 배열 자체를 넣어줌
     B.emplace_back(6);  //벡터 끝에 값넣음, 메모리 할당 가능
 
+    //pair
+    pair <int, int> p;  //기본형
+    p=make_pair(1,2);
+    //typedef pair 재정의
+    typedef pair<int, char> pic;
+    vector <pic> vp;   //벡터 안에 넣기
+    vector <vector <pic>> vp2;  //2차원 벡터 안에 넣기
 
 
-    //배열 array
+    //배열 
+    //리스트
 
 }
