@@ -18,7 +18,7 @@ int main(){
     cin >> n >> m;
 
     arrive = false;
-    A.resize(n);    
+    A.resize(n);        
     visited = vector<bool>(n, false);
 
     for (int i=0; i<m; i++){    //벡터에 노드관계담기
