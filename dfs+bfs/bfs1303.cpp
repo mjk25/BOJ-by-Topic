@@ -90,7 +90,7 @@ void BFS(int y, int x, char team){
             int na = a + pa[i];
             int nb = b + pb[i];
         
-            if (na < 0 || na >= n || nb < 0 || nb >= m)
+            if (na < 0 || na >= m || nb < 0 || nb >= n)
                 continue;
             if (visited[na][nb]==false && field[na][nb] == team){
                 q.push({na,nb});
