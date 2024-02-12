@@ -18,6 +18,7 @@ int main(){
     cin >> n >> m;
 
     arrive = false;
+    // 벡터 크기 정해주는거 잊지않기 !!
     A.resize(n);        
     visited = vector<bool>(n, false);
 
