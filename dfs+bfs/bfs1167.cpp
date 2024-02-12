@@ -16,14 +16,36 @@ int maxl;
 int main(){
     freopen("input.txt", "r", stdin);
 
-    int v;
-    cin >> v;
-    int n,l;
-    for (int i=0; i<v; i++){
-        while (n!=-1){
-            cin >> n >> l;
+    int n;
+    cin >> n;
+    A.resize(n+1);
+
+    for (int i=0; i<n; i++){
+        int s;
+        cin >> s;
+        while (true){
+            int e,v;
+            cin >> e;
+            if (e==-1) break;
+            cin >> v;
+            A[s].push_back(edge(e,v));
         } 
     }
+
+    max_dist = vector<int>(n+1, 0);
+    visited = vector<bool>(n+1, false);
+    BFS(1);
+    int max =1;
+    for (int i=0; i<=n; i++){
+        if (max_dist[max] <= max_dist[i]){
+            max = i;
+        }
+    }
+    fill(max_dist.begin(), max_dist.end(), 0);
+    fill(visited.begin(), visited.end(), false);
+    BFS(max);
+    sort(max_dist.begin(), max_dist.end());
+    cout << max_dist[n] << "\n";
 }
 
 void BFS(int node){
@@ -32,7 +54,16 @@ void BFS(int node){
     myqueue.push(node);
     visited[node] = true;
 
-    while(!myqueue.empty()){
-        
+    while(!myqueue.empty()){    //큐에 값이 있으면 계속함
+        int now_node = myqueue.front();
+        myqueue.pop();
+        for (edge i : A[now_node]){
+            if (!visited[i.first]){ 
+                visited[i.first] = true;
+                myqueue.push(i.first);
+                //거리 배열 업데이트
+                max_dist[i.first] = max_dist[now_node] +i.second;
+            }
+        }
     }
 }
