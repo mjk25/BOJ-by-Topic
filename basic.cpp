@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main(){
@@ -43,6 +44,10 @@ int main(){
     
     vp2[n].push_back(pic(s,e)); //벡터 안에 pair값 넣기
 
+    // 벡터 정렬 
+    for (int i = 0; i <= n; ++i) {
+		sort(B[i].begin(), B[i].end());
+	}
     //배열 
     //리스트
 
