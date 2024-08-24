@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 #include <map>
 #include <algorithm>
 using namespace std;
@@ -10,6 +9,8 @@ int cards[500002];
 
 int main() {
     freopen("/home/user/cpp_baekjoon/input.txt", "r", stdin);
+    ios::sync_with_stdio(false);
+	cin.tie(0);
     cin >> N;
     
     for (int i = 0; i < N; i++) {
