@@ -4,23 +4,24 @@
 
 using namespace std;
 
+int n;
+int ans = 0;
 int arr[1005];
 
 int main(){
-    int n;
-    int ans = 0;
-
+    //freopen("/home/user/cpp_baekjoon/input.txt", "r", stdin);
+    
     cin >> n;
 
-    for(int i=0;i<n;i++)
-        scanf("%d",&arr[i]);
-
+    for(int i=0;i<n;i++){
+        cin >>arr[i];
+    }
     sort(arr,arr+n);
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++){
         ans += arr[i]*(n-i);
+    }
 
     cout << ans;
-
     return 0;
 }
