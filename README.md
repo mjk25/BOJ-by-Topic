@@ -1,5 +1,5 @@
 # 알고리즘 공부 커리큘럼 Baekjoon
-baekjoon repository에는 '주차별 공부 커리큘럼 + 별개로 자유롭게 진행한 문제들' 모두 저장.
+'주차별 공부 커리큘럼 + 별개로 자유롭게 진행한 문제들' 모두 저장.
 
 ## 1주차: 브루트 포스와 백트래킹
 
@@ -32,39 +32,6 @@ baekjoon repository에는 '주차별 공부 커리큘럼 + 별개로 자유롭�
 | [18870](https://www.acmicpc.net/problem/18870) | 좌표 압축 |
 | [1517](https://www.acmicpc.net/problem/1517) | 버블 소트 |
 | [16496](https://www.acmicpc.net/problem/16496) | 큰 수 만들기 |
-
-## 3주차: 스택
-
-### 필수문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [17608](https://www.acmicpc.net/problem/17608) | 막대기 |
-| [10828](https://www.acmicpc.net/problem/10828) | 스택 |
-| [2504](https://www.acmicpc.net/problem/2504) | 스택의 값 |
-| [10773](https://www.acmicpc.net/problem/10773) | 제로 |
-
-### 도전문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [2841](https://www.acmicpc.net/problem/2841) | 외계인의 기타 연주 |
-| [10799](https://www.acmicpc.net/problem/10799) | 쇠막대기 |
-| [15500](https://www.acmicpc.net/problem/15500) | 이상한 하노이 탑 |
-
-## 4주차: 큐와 덱
-
-### 필수문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [11866](https://www.acmicpc.net/problem/11866) | 요세푸스 문제 0 |
-| [5430](https://www.acmicpc.net/problem/5430) | AC |
-| [10025](https://www.acmicpc.net/problem/10025) | 게으른 백곰 |
-| [15565](https://www.acmicpc.net/problem/15565) | 귀여운 라이언 |
-| [2346](https://www.acmicpc.net/problem/2346) | 풍선 터뜨리기 |
-
-### 도전문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [1806](https://www.acmicpc.net/problem/1806) | 부분합 |
 
 ## 5주차: 다이나믹 프로그래밍(DP, 동적 계획법)
 
@@ -117,6 +84,60 @@ baekjoon repository에는 '주차별 공부 커리큘럼 + 별개로 자유롭�
 | [19641](https://www.acmicpc.net/problem/19641) | 중첩 집합 모델 |
 | [14267](https://www.acmicpc.net/problem/14267) | 내리 칭찬 |
 
+## 9주차: 그리디 알고리즘
+
+### 필수문제
+| 문제 번호 | 문제 |
+| --- | --- |
+| [1931](https://www.acmicpc.net/problem/1931) | 회의실 배정 |
+| [1789](https://www.acmicpc.net/problem/1789) | 수들의 합 |
+| [16953](https://www.acmicpc.net/problem/16953) | A → B |
+
+### 도전문제
+| 문제 번호 | 문제 |
+| --- | --- |
+| [1715](https://www.acmicpc.net/problem/1715) | 카드 정렬하기 |
+| [1339](https://www.acmicpc.net/problem/1339) | 단어 수학 |
+
+## 10주차 : 트리
+## 11주차 : 유니온 파인드  
+
+---  
+
+*[제외된 주차]*
+## 3주차: 스택
+
+### 필수문제
+| 문제 번호 | 문제 |
+| --- | --- |
+| [17608](https://www.acmicpc.net/problem/17608) | 막대기 |
+| [10828](https://www.acmicpc.net/problem/10828) | 스택 |
+| [2504](https://www.acmicpc.net/problem/2504) | 스택의 값 |
+| [10773](https://www.acmicpc.net/problem/10773) | 제로 |
+
+### 도전문제
+| 문제 번호 | 문제 |
+| --- | --- |
+| [2841](https://www.acmicpc.net/problem/2841) | 외계인의 기타 연주 |
+| [10799](https://www.acmicpc.net/problem/10799) | 쇠막대기 |
+| [15500](https://www.acmicpc.net/problem/15500) | 이상한 하노이 탑 |
+
+## 4주차: 큐와 덱
+
+### 필수문제
+| 문제 번호 | 문제 |
+| --- | --- |
+| [11866](https://www.acmicpc.net/problem/11866) | 요세푸스 문제 0 |
+| [5430](https://www.acmicpc.net/problem/5430) | AC |
+| [10025](https://www.acmicpc.net/problem/10025) | 게으른 백곰 |
+| [15565](https://www.acmicpc.net/problem/15565) | 귀여운 라이언 |
+| [2346](https://www.acmicpc.net/problem/2346) | 풍선 터뜨리기 |
+
+### 도전문제
+| 문제 번호 | 문제 |
+| --- | --- |
+| [1806](https://www.acmicpc.net/problem/1806) | 부분합 |
+
 ## 8주차: Set, Map과 Dictionary
 
 ### 필수문제
@@ -134,5 +155,4 @@ baekjoon repository에는 '주차별 공부 커리큘럼 + 별개로 자유롭�
 | [16165](https://www.acmicpc.net/problem/16165) | 걸그룹 마스터 준석이 |
 
 ---
-
 
