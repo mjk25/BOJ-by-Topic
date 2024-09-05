@@ -1,5 +1,5 @@
 # 알고리즘 공부 커리큘럼 Baekjoon
-'주차별 공부 커리큘럼 + 별개로 자유롭게 진행한 문제들' 모두 저장.
+2024-2 '알고리즘' 수강대비 주차별 공부
 
 ## 1주차: 브루트 포스와 백트래킹
 
@@ -104,55 +104,12 @@
 
 ---  
 
-*[제외된 주차]*
+*[제외한 주차]*
 ## 3주차: 스택
-
-### 필수문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [17608](https://www.acmicpc.net/problem/17608) | 막대기 |
-| [10828](https://www.acmicpc.net/problem/10828) | 스택 |
-| [2504](https://www.acmicpc.net/problem/2504) | 스택의 값 |
-| [10773](https://www.acmicpc.net/problem/10773) | 제로 |
-
-### 도전문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [2841](https://www.acmicpc.net/problem/2841) | 외계인의 기타 연주 |
-| [10799](https://www.acmicpc.net/problem/10799) | 쇠막대기 |
-| [15500](https://www.acmicpc.net/problem/15500) | 이상한 하노이 탑 |
 
 ## 4주차: 큐와 덱
 
-### 필수문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [11866](https://www.acmicpc.net/problem/11866) | 요세푸스 문제 0 |
-| [5430](https://www.acmicpc.net/problem/5430) | AC |
-| [10025](https://www.acmicpc.net/problem/10025) | 게으른 백곰 |
-| [15565](https://www.acmicpc.net/problem/15565) | 귀여운 라이언 |
-| [2346](https://www.acmicpc.net/problem/2346) | 풍선 터뜨리기 |
-
-### 도전문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [1806](https://www.acmicpc.net/problem/1806) | 부분합 |
-
 ## 8주차: Set, Map과 Dictionary
-
-### 필수문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [1620](https://www.acmicpc.net/problem/1620) | 포켓몬 마스터 이다솜 |
-| [19583](https://www.acmicpc.net/problem/19583) | 싸이버개강총회 |
-| [1764](https://www.acmicpc.net/problem/1764) | 듣보잡 |
-| [4358](https://www.acmicpc.net/problem/4358) | 생태학 |
-
-### 도전문제
-| 문제 번호 | 문제 |
-| --- | --- |
-| [14425](https://www.acmicpc.net/problem/14425) | 문자열 집합 |
-| [16165](https://www.acmicpc.net/problem/16165) | 걸그룹 마스터 준석이 |
 
 ---
 
